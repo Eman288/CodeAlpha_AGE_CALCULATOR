@@ -32,7 +32,10 @@
     </main>
 
     
-
+    <script>
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('data').setAttribute('max', today);
+    </script>
     <script src="index.js"></script>
 </body>
 </html>
