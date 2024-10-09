@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGE CALCULATOR</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+
+    <main>
+        <div class="result">
+            <p style="font-size: 3vw; justify-self: start;">You are...</p>
+            <p class="p year">0 Years</p>
+            <p class="p month">0 Months</p>
+            <p class="p day">0 Days</p>
+        </div>
+        <div class="date">
+            <h1>Choose A Date</h1>
+            <img src="img/add-button.png" alt="error" onclick="displayDataBlock()">
+        </div>
+        <section 
+        class="data-block">
+            <div class="data">
+                <label for="data">Your Birthday</label>
+                <input type="date" name="data" id="data">
+                <button onclick="CalculateAge()">Calculate</button>
+                <button onclick="Cancel()">Cancel</button>
+            </div>
+        </section>
+    </main>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
