@@ -21,7 +21,7 @@ This is a simple web-based age calculator that calculates the exact age based on
 3. Enter your birthdate in the input field and see your age instantly calculated with animations!
 
 ## Live Server
-  try it [here]()
+  try it [here](https://Eman288.github.io/CodeAlpha_AGE_CALCULATOR/)
 
 ## Technologies Used
 
